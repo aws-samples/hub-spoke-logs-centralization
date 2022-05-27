@@ -1,0 +1,28 @@
+{
+  "name": "hub-cdk",
+  "version": "0.1.0",
+  "bin": {
+    "hub-cdk": "bin/hub-cdk.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.94",
+    "@types/node": "10.17.27",
+    "aws-cdk": "2.20.0",
+    "esbuild": "^0.14.36",
+    "ts-node": "^9.0.0",
+    "typescript": "~3.9.7"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.20.0",
+    "aws-sdk": "^2.1118.0",
+    "cdk-nag": "^2.12.31",
+    "constructs": "^10.0.0",
+    "source-map-support": "^0.5.16"
+  }
+}
